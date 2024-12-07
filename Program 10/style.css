@@ -1,0 +1,25 @@
+
+body{
+    background-image: url("gcetimage.jpg");
+    background-size: auto;
+    background-size: contain;/*"scales the imeage to fit within the container";*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+body:hover{
+    background-size: 150%;
+}
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+}
+a:visited{
+    color:green;
+}
+a:active{
+    color: grey;
+}

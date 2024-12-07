@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Shopping Cart - Garment Store</title>
+</head>
+<body>
+    <h1>Your Shopping Cart</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Image</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>T-Shirt (Blue)</td>
+                <td><img src="bluetshirt.jpg"width="80" height="80"></td>
+                <td>
+                    <input type="number" name="quantity1" value="1" min="1">
+                </td>
+                <td>₹499</td>
+                <td>₹499</td>
+                <td>
+                    <button>Update</button>
+                    <button>Remove</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Jeans (Black)</td>
+                <td><img src="blackjeans.jpg" width="80" height="80"></td>
+                <td>
+                    <input type="number" name="quantity2" value="1" min="1">
+                </td>
+                <td>₹699</td>
+                <td>₹699</td>
+                <td>
+                    <button>Update</button>
+                    <button>Remove</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Jacket (Leather)</td>
+                <td><img src="jacketleather.jpg" width="80" height="80"></td>
+                <td>
+                    <input type="number" name="quantity3" value="1" min="1">
+                </td>
+                <td>₹999</td>
+                <td>₹999</td>
+                <td>
+                    <button>Update</button>
+                    <button>Remove</button>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" align="right"><strong>Total:</strong></td>
+                <td>₹2197</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br>
+    <button>Checkout More</button>
+    <button>Continue Shopping</button>
+</body>
+</html>
